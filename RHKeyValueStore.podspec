@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RHKeyValueStore"
-  s.version      = ">= 2.1.0"
+  s.version      = "2.1.11"
   s.summary      = "Key-Value storage tool, based on WCDB (WeChat DataBase)."
   s.homepage     = "https://github.com/Rannie/RHKeyValueStore"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
