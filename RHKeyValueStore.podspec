@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RHKeyValueStore"
-  s.version      = "2.1.11"
+  s.version      = "0.1.3"
   s.summary      = "Key-Value storage tool, based on WCDB (WeChat DataBase)."
   s.homepage     = "https://github.com/Rannie/RHKeyValueStore"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.public_header_files = "RHKeyValueStore/*.h"
   s.framework    = "Foundation"
   s.requires_arc = true
-  s.dependency "WCDB", "~> 1.0.4"
+  s.dependency "WCDB", "~> 2.1.11"
 
 end
